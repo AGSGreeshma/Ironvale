@@ -1,0 +1,27 @@
+DMC 850 Operator Manual - Chapter 7
+
+7.7 Axis and feed alarms
+
+The E-6xx class covers the linear axes, the feed drives and the way lubrication
+system.
+
+  Code    Meaning                                  Operator action
+  E-601   X axis following error                   Raise a maintenance call
+  E-608   Y axis following error                   Raise a maintenance call
+  E-615   Z axis following error                   Raise a maintenance call
+  E-630   Way lubrication pressure low             Check the lubricant reservoir
+  E-644   Axis over-travel, positive limit         Jog clear in MANUAL, then reset
+  E-651   Axis over-travel, negative limit         Jog clear in MANUAL, then reset
+  E-662   Feed drive over-temperature              Stop, let cool, call maintenance
+
+7.7.1 Following error
+
+A following error means the axis could not keep up with the commanded position.
+The common causes are a crashed tool, a seized ball screw and swarf packed into
+a way cover. Do not reset and re-run; inspect the axis first.
+
+7.7.2 Over-travel
+
+An over-travel alarm is cleared by jogging the axis back inside its limits in
+MANUAL mode with the limit override held. Release the override as soon as the
+axis is clear. Running on limit override is not permitted during production.

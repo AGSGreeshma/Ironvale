@@ -1,0 +1,26 @@
+DMC 850 Operator Manual - Chapter 7
+
+7.6 Spindle alarms
+
+The E-5xx class covers the spindle drive, the spindle bearings and the
+through-spindle coolant union. All E-5xx alarms require maintenance to reset.
+
+  Code    Meaning                                  Operator action
+  E-502   Spindle drive over-current               Raise a maintenance call
+  E-514   Spindle bearing temperature high         Stop, let cool, call maintenance
+  E-526   Spindle orientation not reached          Raise a maintenance call
+  E-533   Spindle encoder signal lost              Raise a maintenance call
+  E-548   Spindle load above limit for 5 s         Check the tool, call maintenance
+  E-559   Spindle brake not released               Raise a maintenance call
+
+7.6.1 Spindle bearing temperature
+
+E-514 is the alarm that most often ends a shift. The spindle must be allowed to
+cool with the chiller running before any attempt to restart. Do not run the
+spindle at low speed to cool it; this loads the bearing while it is hot.
+
+7.6.2 After any spindle alarm
+
+A spindle alarm that stops the machine mid-cycle leaves a part of unknown
+quality on the table. Scrap that part. Complete a first-article check per
+SOP-L1-003 before the batch continues.

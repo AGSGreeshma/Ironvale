@@ -1,0 +1,36 @@
+Batch Furnace Operator Manual - Chapter 4
+
+4.4 Interlock alarm codes
+
+  Code    Interlock                     Meaning
+  F-210   Charge door                   Door not proved closed
+  F-224   Quench tank lid               Lid not proved open before descent
+  F-237   Purge flow                    Purge flow below minimum before ignition
+  F-255   Over-temperature cut-out      Independent trip operated
+  F-268   Fan rotation                  Circulation fan rotation not proved
+  F-279   Oil level                     Quench oil freeboard below minimum
+  F-290   Emergency stop loop           Loop open
+
+4.5 First-out logic
+
+When the chain opens, several lamps may go red at once because the devices are
+in series. The control latches the first device to open. Always investigate the
+first-out device; the others are consequences.
+
+4.6 Resetting the chain
+
+  1. Read the first-out device from STATUS, F2.
+  2. Correct the physical condition. Do not reset first.
+  3. Confirm the lamp for that device has returned to green.
+  4. Press INTERLOCK RESET.
+  5. Confirm all lamps are green before requesting heat.
+
+An interlock reset does not restart the cycle. The cycle must be restarted from
+the batch screen, and the batch record must be annotated with the interruption.
+
+4.7 Over-temperature cut-out
+
+The over-temperature cut-out is an independent device with its own
+thermocouple. It is set 30 C above the process set point and is tested monthly
+by maintenance. A cut-out that has operated must be investigated before the
+furnace is returned to service; it means the primary control failed.

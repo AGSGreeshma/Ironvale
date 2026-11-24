@@ -1,0 +1,35 @@
+DMC 850 Operator Manual - Chapter 7
+
+7.5 Coolant and interlock alarms
+
+This section covers the E-4xx class. These are the alarms an operator is
+authorised to reset once the cause has been dealt with.
+
+Alarm E-417 on the DMC 850 means spindle coolant pressure below 4 bar. Clean
+the coolant filter, then reset. Do not bypass.
+
+The usual cause of E-417 is a blocked coolant filter. The second most common
+cause is a tank level below the minimum sight-glass mark. Check the level
+first, because it takes seconds, then change or clean the filter. Coolant
+specification and top-up are covered by SOP-L1-004.
+
+Alarm E-471 means the door interlock is open.
+
+E-471 will not clear while the door is open or while the interlock switch is
+misaligned. Do not tape, bridge or otherwise defeat the interlock switch.
+
+  Code    Meaning                                  Operator action
+  E-401   Coolant tank level low                   Top up per SOP-L1-004
+  E-405   Coolant return blocked                   Clear the return trough
+  E-417   Spindle coolant pressure below 4 bar     Clean the coolant filter, then reset
+  E-423   Coolant temperature above 38 C           Allow to cool, then reset
+  E-438   Through-spindle coolant seal leak        Raise a maintenance call
+  E-450   Chip wash pump overload                  Reset once, then call maintenance
+  E-471   Door interlock open                      Close the door and reset
+  E-488   Guard panel removed                      Refit the panel, then reset
+
+After clearing E-417, run one part and complete a first-article check per
+SOP-L1-003 before releasing the rest of the batch. Low coolant pressure during
+a cut can leave an undersize bore that passes a visual check.
+
+                                                                      page 42

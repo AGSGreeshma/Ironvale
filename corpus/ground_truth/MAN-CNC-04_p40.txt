@@ -1,0 +1,39 @@
+DMC 850 Operator Manual - Chapter 7
+
+7. ALARMS AND DIAGNOSTICS
+
+7.1 How to use this chapter
+
+This chapter lists the alarm codes the DMC 850 control can raise, what each one
+means, and the action the operator is permitted to take. Alarms are grouped by
+subsystem. Each entry gives the code, the meaning, the operator action and
+whether a first-article check is required before the batch continues.
+
+Alarm codes are displayed on the control as a letter followed by three digits,
+for example E-105. The letter indicates the class:
+
+  E   Equipment fault. The machine has stopped or will stop.
+  W   Warning. The cycle continues but the condition must be cleared.
+  M   Maintenance due. Informational only.
+
+7.2 General rules
+
+Never reset an alarm you do not understand. A reset clears the message but does
+not clear the underlying condition, and a second occurrence may damage the
+machine or the part.
+
+Never defeat, bridge or bypass a safety device in order to clear an alarm or to
+finish a batch. If an alarm prevents production, stop and raise a maintenance
+call. The shift supervisor decides whether the batch is held.
+
+Record every equipment-class alarm on the shift log with the code, the time and
+the work order number. The machine monitor also records the code against the
+downtime event automatically.
+
+7.3 Chapter contents
+
+  7.4   Alarm classes and reset authority ........................ page 41
+  7.5   Coolant and interlock alarms ............................. page 42
+  7.6   Spindle alarms ........................................... page 43
+  7.7   Axis and feed alarms ..................................... page 44
+  7.8   Reset and recovery procedures ............................ page 45

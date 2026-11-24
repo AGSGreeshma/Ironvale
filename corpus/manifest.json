@@ -1,0 +1,1184 @@
+{
+  "documents": [
+    {
+      "doc_id": "SOP-L1-001",
+      "title": "Line 1 CNC: Machine Changeover",
+      "version": "v4",
+      "effective_date": "2026-04-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "SOP-L1-001.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-002",
+      "title": "Line 1 CNC: Tool Offset Entry and Verification",
+      "version": "v3",
+      "effective_date": "2026-02-15",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "SOP-L1-002.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-003",
+      "title": "Line 1 CNC: First-Article Check",
+      "version": "v5",
+      "effective_date": "2026-05-20",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "SOP-L1-003.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-004",
+      "title": "Line 1 CNC: Coolant Top-Up and Concentration Check",
+      "version": "v2",
+      "effective_date": "2026-03-10",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "SOP-L1-004.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-011",
+      "title": "Furnace Loading and Soak Times",
+      "version": "v3",
+      "effective_date": "2026-07-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": false,
+      "path": "SOP-L2-011.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-011-v2",
+      "title": "Furnace Loading and Soak Times",
+      "version": "v2",
+      "effective_date": "2025-09-15",
+      "superseded": true,
+      "superseded_on": "2026-07-01",
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": false,
+      "path": "SOP-L2-011-v2.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-012",
+      "title": "Quench Oil Handling",
+      "version": "v3",
+      "effective_date": "2026-01-12",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": false,
+      "path": "SOP-L2-012.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-005",
+      "title": "Line 3 Assembly: Press-Fit of Bearing Housings",
+      "version": "v3",
+      "effective_date": "2026-03-02",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "SOP-L3-005.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-006",
+      "title": "Line 3 Assembly: Leak Test",
+      "version": "v4",
+      "effective_date": "2026-06-18",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "SOP-L3-006.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-007",
+      "title": "Line 3 Assembly: Bolt Torque",
+      "version": "v6",
+      "effective_date": "2026-08-05",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "SOP-L3-007.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "WI-L3-009",
+      "title": "Line 3 Work Instruction: Fixture Cleaning",
+      "version": "v2",
+      "effective_date": "2026-05-11",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "WI-L3-009.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "MAN-CNC-04",
+      "title": "DMC 850 Operator Manual - Chapter 7: Alarms and Diagnostics",
+      "version": "Rev C",
+      "effective_date": "2025-11-20",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "scanned/MAN-CNC-04.pdf",
+      "source": "scanned",
+      "fmt": "pdf",
+      "printed_page_start": 40,
+      "pages": [
+        {
+          "pdf_index": 0,
+          "printed_page": 40,
+          "rotation_deg": 0.85
+        },
+        {
+          "pdf_index": 1,
+          "printed_page": 41,
+          "rotation_deg": 1.48
+        },
+        {
+          "pdf_index": 2,
+          "printed_page": 42,
+          "rotation_deg": -1.47
+        },
+        {
+          "pdf_index": 3,
+          "printed_page": 43,
+          "rotation_deg": 1.12
+        },
+        {
+          "pdf_index": 4,
+          "printed_page": 44,
+          "rotation_deg": -0.94
+        },
+        {
+          "pdf_index": 5,
+          "printed_page": 45,
+          "rotation_deg": 0.68
+        }
+      ]
+    },
+    {
+      "doc_id": "MAN-FUR-02",
+      "title": "Batch Furnace Operator Manual - Chapter 4: Safety Interlocks",
+      "version": "Rev B",
+      "effective_date": "2025-08-04",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": false,
+      "path": "scanned/MAN-FUR-02.pdf",
+      "source": "scanned",
+      "fmt": "pdf",
+      "printed_page_start": 12,
+      "pages": [
+        {
+          "pdf_index": 0,
+          "printed_page": 12,
+          "rotation_deg": -0.86
+        },
+        {
+          "pdf_index": 1,
+          "printed_page": 13,
+          "rotation_deg": -1.25
+        },
+        {
+          "pdf_index": 2,
+          "printed_page": 14,
+          "rotation_deg": 0.6
+        },
+        {
+          "pdf_index": 3,
+          "printed_page": 15,
+          "rotation_deg": 0.8
+        }
+      ]
+    },
+    {
+      "doc_id": "MAN-LT-01",
+      "title": "Leak Tester LT-400 Operator Manual",
+      "version": "Rev A",
+      "effective_date": "2026-02-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "MAN-LT-01.pdf",
+      "source": "digital",
+      "fmt": "pdf"
+    },
+    {
+      "doc_id": "QDR-2026-009",
+      "title": "Quality Deviation Report QDR-2026-009",
+      "version": "v1",
+      "effective_date": "2026-08-20",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "QDR-2026-009.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "QDR-2026-012",
+      "title": "Quality Deviation Report QDR-2026-012",
+      "version": "v1",
+      "effective_date": "2026-09-02",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": false,
+      "path": "QDR-2026-012.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "QDR-2026-014",
+      "title": "Quality Deviation Report QDR-2026-014",
+      "version": "v1",
+      "effective_date": "2026-09-18",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "QDR-2026-014.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "QDR-2026-017",
+      "title": "Quality Deviation Report QDR-2026-017",
+      "version": "v1",
+      "effective_date": "2026-09-30",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": false,
+      "path": "QDR-2026-017.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "QDR-2026-021",
+      "title": "Quality Deviation Report QDR-2026-021",
+      "version": "v1",
+      "effective_date": "2026-10-12",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": false,
+      "path": "QDR-2026-021.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "ASL-2026",
+      "title": "Approved Supplier List 2026",
+      "version": "2026.3",
+      "effective_date": "2026-10-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": false,
+      "path": "ASL-2026.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "SQA-ARC-01",
+      "title": "Supplier Quality Agreement - Arcflow Castings",
+      "version": "v2",
+      "effective_date": "2026-08-15",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": false,
+      "path": "SQA-ARC-01.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SQA-MTS-01",
+      "title": "Supplier Quality Agreement - Metsun Fasteners",
+      "version": "v3",
+      "effective_date": "2025-04-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": false,
+      "path": "SQA-MTS-01.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "PRC-2026-Q3",
+      "title": "Supplier Price List Q3 2026",
+      "version": "2026-Q3",
+      "effective_date": "2026-07-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": false,
+      "path": "PRC-2026-Q3.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-L1-005",
+      "title": "Line 1 CNC: Daily Machine Start-Up",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-005.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-006",
+      "title": "Line 1 CNC: Chip Conveyor and Swarf Disposal",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-006.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-007",
+      "title": "Line 1 CNC: Tool Crib Issue and Return",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-007.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-L1-008",
+      "title": "Line 1 CNC: Way Lubrication Check",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-008.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "SOP-L1-009",
+      "title": "Line 1 CNC: Probe Calibration",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-009.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-010",
+      "title": "Line 1 CNC: Spindle Warm-Up Cycle",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-010.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L1-011",
+      "title": "Line 1 CNC: Shift Handover",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-011.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-L1-012",
+      "title": "Line 1 CNC: Deburring and Part Presentation",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "SOP-L1-012.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "WI-L1-021",
+      "title": "Line 1 Work Instruction: Fixture Gauge Check",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "WI-L1-021.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "WI-L1-022",
+      "title": "Line 1 Work Instruction: Air Blow-Off Discipline",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L1",
+      "filler": true,
+      "path": "WI-L1-022.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-L2-013",
+      "title": "Line 2: Thermocouple Replacement",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-013.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-014",
+      "title": "Line 2: Atmosphere Control and Carbon Potential",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-014.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-015",
+      "title": "Line 2: Basket and Fixture Inspection",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-015.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-L2-016",
+      "title": "Line 2: Post-Quench Hardness Check",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-016.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "SOP-L2-017",
+      "title": "Line 2: Furnace Shutdown and Cool-Down",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-017.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-018",
+      "title": "Line 2: Tempering Cycle Control",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-018.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-019",
+      "title": "Line 2: Batch Record Completion",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-019.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L2-020",
+      "title": "Line 2: Shift Handover",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "SOP-L2-020.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "WI-L2-031",
+      "title": "Line 2 Work Instruction: Charge Fork Handling",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "WI-L2-031.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "WI-L2-032",
+      "title": "Line 2 Work Instruction: Oxygen Probe Cleaning",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L2",
+      "filler": true,
+      "path": "WI-L2-032.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-008",
+      "title": "Line 3 Assembly: Serial Number Marking",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-008.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-009",
+      "title": "Line 3 Assembly: Seal Fitting",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-009.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-010",
+      "title": "Line 3 Assembly: Rework Bench Routing",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-010.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "SOP-L3-011",
+      "title": "Line 3 Assembly: Final Visual Inspection",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-011.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-012",
+      "title": "Line 3 Assembly: Packing and Despatch Presentation",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-012.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-013",
+      "title": "Line 3 Assembly: Torque Wrench Calibration Handling",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-013.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-L3-014",
+      "title": "Line 3 Assembly: Shift Handover",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-014.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-L3-015",
+      "title": "Line 3 Assembly: Station Clearance Between Part Numbers",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "SOP-L3-015.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "WI-L3-041",
+      "title": "Line 3 Work Instruction: Red Tag Discipline",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "WI-L3-041.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "WI-L3-042",
+      "title": "Line 3 Work Instruction: Master Part Storage",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "L3",
+      "filler": true,
+      "path": "WI-L3-042.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-001",
+      "title": "Plant: Lockout and Tagout",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-001.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-002",
+      "title": "Plant: Personal Protective Equipment",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-002.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-003",
+      "title": "Plant: Raising a Maintenance Call",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-003.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-004",
+      "title": "Plant: Gauge and Instrument Calibration Control",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-004.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-GEN-005",
+      "title": "Plant: Housekeeping and 5S Standard",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-005.html",
+      "source": "digital",
+      "fmt": "html"
+    },
+    {
+      "doc_id": "SOP-GEN-006",
+      "title": "Plant: Compressed Air System Checks",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-006.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-007",
+      "title": "Plant: Waste Segregation",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-007.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-008",
+      "title": "Plant: Internal Training and Competence Records",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-008.md",
+      "source": "digital",
+      "fmt": "md"
+    },
+    {
+      "doc_id": "SOP-GEN-009",
+      "title": "Plant: Document Control and Revision Handling",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-009.docx",
+      "source": "digital",
+      "fmt": "docx"
+    },
+    {
+      "doc_id": "SOP-GEN-010",
+      "title": "Plant: Escalation of Production Stoppages",
+      "version": "v1",
+      "effective_date": "2026-06-01",
+      "superseded": false,
+      "superseded_on": null,
+      "allowed_roles": [
+        "line_supervisor",
+        "quality_engineer",
+        "plant_head"
+      ],
+      "scope": "plant",
+      "filler": true,
+      "path": "SOP-GEN-010.md",
+      "source": "digital",
+      "fmt": "md"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.venv/
+.env
+.cache/
+.index/
+__pycache__/
+*.pyc
+.pytest_cache/
+eval/results/*.json
+eval/results/traces.jsonl
+corpus/scanned/*.pdf
+!corpus/scanned/.gitkeep
+.ruff_cache/

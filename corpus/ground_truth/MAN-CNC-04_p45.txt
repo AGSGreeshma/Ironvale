@@ -1,0 +1,38 @@
+DMC 850 Operator Manual - Chapter 7
+
+7.8 Reset and recovery procedures
+
+7.8.1 Standard reset
+
+  1. Read the alarm code and write it on the shift log.
+  2. Identify the cause from the tables in 7.5 to 7.7.
+  3. Deal with the cause. Do not skip to the reset.
+  4. Press RESET. The message clears if the condition has gone.
+  5. Return the machine to AUTO and restart from a safe block.
+
+7.8.2 If the alarm will not clear
+
+A code that returns immediately after a reset means the condition is still
+present. Do not press RESET repeatedly. Raise a maintenance call.
+
+7.8.3 Recovery after a mid-cycle stop
+
+A mid-cycle stop leaves the tool in the cut. Retract in MANUAL along the tool
+axis only. Retracting across the part will break the tool and may move the
+fixture.
+
+  1. Select MANUAL.
+  2. Retract along the tool axis clear of the part.
+  3. Move to the home position.
+  4. Remove and inspect the part. Scrap it if the stop occurred during a
+     finishing pass.
+  5. Complete a first-article check per SOP-L1-003.
+
+7.8.4 What an operator must never do
+
+  - Defeat, bridge or bypass any interlock or guard switch.
+  - Reset an alarm whose cause has not been identified.
+  - Continue a batch after a safety-class alarm without supervisor sign-off.
+  - Change a machine parameter to silence an alarm.
+
+                                                                      page 45

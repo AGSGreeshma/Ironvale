@@ -1,0 +1,31 @@
+Batch Furnace Operator Manual - Chapter 4
+
+4.8 Charge door
+
+The charge door is proved closed by a limit switch and a second position
+sensor. Both must agree. A mismatch raises F-210 and holds the chain open.
+
+Never stand in the door opening while the door is powered. Never reach into the
+chamber to free a basket. Use the charge fork from outside the opening.
+
+4.8.1 Door seal
+
+A worn door seal lets air into the chamber and shows as a slow rise in oxygen
+probe reading. Report a seal that shows a gap when the door is closed.
+
+4.9 Quench tank lid
+
+The lid switch proves the lid is open before the load is permitted to descend.
+A load that descends onto a closed lid will tip, and oil will be displaced.
+
+The lid must be open before the transfer starts and must stay open until the
+load is fully submerged and the dwell is complete.
+
+4.10 Purge before ignition
+
+The furnace purges for 90 seconds before ignition. The purge flow switch proves
+flow during the purge. If F-237 appears, check the purge gas supply pressure
+and the filter before any attempt to reset.
+
+Do not shorten the purge. The purge timer is a safety function and is not
+adjustable from the operator panel.

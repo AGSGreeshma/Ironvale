@@ -1,0 +1,33 @@
+Batch Furnace Operator Manual - Chapter 4
+
+4.11 Daily interlock checks
+
+Carry out these checks at the start of every shift and record them on the
+furnace log.
+
+  Check                                        Pass criterion
+  All interlock lamps green at idle            Steady green, no flashing
+  Charge door limit                            Chain opens when door cracked
+  Quench lid switch                            Chain opens when lid closed
+  Emergency stop, each station                 Contactor drops immediately
+  Oil level float                              Lamp green, freeboard above mark
+  Fan rotation proof                           Lamp green within 10 s of start
+
+A failed check takes the furnace out of service. Hang a do-not-operate tag on
+the panel and raise a maintenance call.
+
+4.12 What an operator must never do
+
+  - Defeat, bridge, tape or jumper any interlock device.
+  - Reset the chain before correcting the first-out condition.
+  - Run with the quench tank lid interlock defeated.
+  - Shorten or disable the purge timer.
+  - Open the charge door above 200 C.
+
+4.13 Records
+
+The interlock check record is retained for 36 months. Any interlock trip is
+recorded on the batch record with the first-out device and the corrective
+action taken.
+
+                                                                      page 15

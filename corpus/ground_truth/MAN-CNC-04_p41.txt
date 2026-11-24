@@ -1,0 +1,33 @@
+DMC 850 Operator Manual - Chapter 7
+
+7.4 Alarm classes and reset authority
+
+The table below gives reset authority by class. An operator may reset only the
+alarms marked Operator. Everything else requires maintenance.
+
+  Class   Meaning                  Reset authority    Batch hold
+  E-1xx   Control and power        Maintenance        Yes
+  E-2xx   Hydraulics and air       Maintenance        Yes
+  E-3xx   Tool changer             Maintenance        Yes
+  E-4xx   Coolant and interlocks   Operator           See 7.5
+  E-5xx   Spindle                  Maintenance        Yes
+  E-6xx   Axis and feed            Maintenance        Yes
+  E-7xx   Chip conveyor            Operator           No
+  E-8xx   Probe and measurement    Maintenance        Yes
+
+Reset authority is not permission to ignore the cause. An operator who resets
+an E-4xx alarm must still record the code and the action taken.
+
+If the same equipment-class alarm occurs three times in one shift on the same
+machine, stop the machine and raise a maintenance call regardless of class.
+
+7.4.1 Latched alarms
+
+Some alarms latch. A latched alarm stays on the screen after the condition has
+cleared and must be acknowledged with the RESET key before the cycle will
+start. A latched alarm is shown with a padlock symbol next to the code.
+
+7.4.2 Alarm history
+
+The control keeps the last 200 alarms with a timestamp. Press DIAG then F3 to
+open the history. Export the history to USB before a maintenance visit.

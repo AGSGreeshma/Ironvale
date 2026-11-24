@@ -1,0 +1,34 @@
+Batch Furnace Operator Manual - Chapter 4
+
+4. SAFETY INTERLOCKS
+
+4.1 Purpose of the interlock chain
+
+The furnace will not heat, and the charge door will not open, unless every
+device in the interlock chain is healthy. The chain exists to prevent three
+events: an open door at temperature, a load descending into a quench tank with
+the lid closed, and a gas purge failure before ignition.
+
+The interlock chain is not an operator convenience. It is the last barrier
+between a fault and an injury. No interlock in this chain may be defeated,
+bridged, taped or jumpered for any reason, including to finish a batch.
+
+4.2 Devices in the chain
+
+  Device                        Function
+  Charge door limit switch      Proves the door is fully closed
+  Quench tank lid switch        Proves the lid is open before a load descends
+  Purge flow switch             Proves purge gas flow before ignition
+  Over-temperature cut-out      Independent trip at set point plus 30 C
+  Fan rotation proof            Proves the circulation fan is turning
+  Oil level float               Proves quench oil freeboard is sufficient
+  Emergency stop loop           Hard-wired, drops the contactor directly
+
+4.3 Interlock status display
+
+The panel shows one lamp per device. A healthy device shows a steady green
+lamp. A flashing amber lamp means the device is healthy but a related condition
+is out of range. A red lamp means the device has tripped and the chain is open.
+
+Press STATUS then F2 to see which device opened the chain first. The control
+records the first-out device, which is the one to investigate.

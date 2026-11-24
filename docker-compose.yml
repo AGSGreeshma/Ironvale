@@ -1,0 +1,102 @@
+# IronAsk - Ironvale Components shop-floor knowledge assistant
+# Brings up: Postgres (pgvector), Neo4j Community, self-hosted Langfuse (v2).
+#
+# Host ports are deliberately non-default (5433/7475/7688/3100/8080/8501) so the
+# stack can coexist with other local projects. Override via .env if you like.
+services:
+
+  # ---------------------------------------------------------------- app data
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: ironask-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-ironask}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ironask_dev_pw}
+      POSTGRES_DB: ${POSTGRES_DB:-ironask}
+    ports:
+      - "${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - ironask_pgdata:/var/lib/postgresql/data
+    command:
+      - postgres
+      - -c
+      - shared_preload_libraries=pg_stat_statements
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-ironask} -d ${POSTGRES_DB:-ironask}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  # ------------------------------------------------------------------- graph
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: ironask-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-ironask_dev_pw}
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1G
+      NEO4J_server_memory_pagecache__size: 256m
+    ports:
+      - "${NEO4J_HTTP_PORT:-7475}:7474"
+      - "${NEO4J_BOLT_PORT:-7688}:7687"
+    volumes:
+      - ironask_neo4jdata:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO /dev/null http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  # ----------------------------------------------------------------- tracing
+  # Langfuse v2 needs only Postgres (v3 additionally needs ClickHouse/Redis/MinIO).
+  # We reuse the pgvector image for its metadata DB so no extra image is pulled.
+  langfuse-db:
+    image: pgvector/pgvector:pg16
+    container_name: ironask-langfuse-db
+    environment:
+      POSTGRES_USER: langfuse
+      POSTGRES_PASSWORD: langfuse
+      POSTGRES_DB: langfuse
+    volumes:
+      - ironask_langfusedata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U langfuse -d langfuse"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  langfuse:
+    image: langfuse/langfuse:2
+    container_name: ironask-langfuse
+    depends_on:
+      langfuse-db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://langfuse:langfuse@langfuse-db:5432/langfuse
+      NEXTAUTH_SECRET: ${LANGFUSE_NEXTAUTH_SECRET:-ironask-dev-nextauth-secret}
+      SALT: ${LANGFUSE_SALT:-ironask-dev-salt}
+      ENCRYPTION_KEY: ${LANGFUSE_ENCRYPTION_KEY:-0000000000000000000000000000000000000000000000000000000000000000}
+      NEXTAUTH_URL: http://localhost:${LANGFUSE_PORT:-3100}
+      TELEMETRY_ENABLED: "false"
+      LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES: "false"
+      # Auto-provision an org/project/user so `make trace-keys` can read keys out.
+      LANGFUSE_INIT_ORG_ID: ironvale
+      LANGFUSE_INIT_ORG_NAME: Ironvale Components
+      LANGFUSE_INIT_PROJECT_ID: ironask
+      LANGFUSE_INIT_PROJECT_NAME: IronAsk
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:-pk-lf-ironask-dev}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_SECRET_KEY:-sk-lf-ironask-dev}
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL:-admin@ironvale.local}
+      LANGFUSE_INIT_USER_NAME: IronAsk Admin
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:-ironask_dev_pw}
+    ports:
+      - "${LANGFUSE_PORT:-3100}:3000"
+    restart: unless-stopped
+
+volumes:
+  ironask_pgdata:
+  ironask_neo4jdata:
+  ironask_langfusedata:
