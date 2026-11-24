@@ -1,0 +1,16 @@
+# Base theme. The detailed treatment is in the CSS injected by ui.py; these
+# values exist so Streamlit's own widgets (inputs, tables, spinners) match the
+# panel/paper palette instead of fighting it.
+[theme]
+base = "light"
+primaryColor = "#2F6F8F"
+backgroundColor = "#E9EAE7"
+secondaryBackgroundColor = "#DDDEDA"
+textColor = "#171C1F"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

@@ -52,7 +52,7 @@ class Settings:
     llm_provider = os.getenv("LLM_PROVIDER", "ollama").strip().lower()
     ollama_base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434").rstrip("/")
     understand_model = os.getenv("LLM_UNDERSTAND_MODEL", "llama3.2:3b")
-    answer_model = os.getenv("LLM_ANSWER_MODEL", "llama3.1:latest")
+    answer_model = os.getenv("LLM_ANSWER_MODEL", "llama3.2:3b")
     llm_temperature = _f("LLM_TEMPERATURE", 0.0)
     llm_timeout_s = _i("LLM_TIMEOUT_S", 120)
     llm_cache = _b("LLM_CACHE", "1")
